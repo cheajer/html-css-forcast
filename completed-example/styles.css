@@ -16,6 +16,10 @@ a {
     color: #000000;
 }
 
+details {
+    margin-bottom: 1rem;
+}
+
 .logo {
     padding: 1rem;
 }
@@ -46,6 +50,7 @@ a {
 .product-container h4 {
     font-weight: normal;
     margin-bottom: 0;
+    display: inline;
 }
 
 .product-details {
@@ -59,6 +64,7 @@ a {
 .divider {
     width:100%;
     border-top: 1px solid #000000;
+    margin-top: 2rem;
 }
 
 .checkout-btn {
@@ -68,3 +74,41 @@ a {
     font-size: 20px;
     height: 3rem;
 }
+
+.checkout-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* WORKSHOP 3 CSS */
+
+@media only screen and (max-width: 600px) {
+    .product-container {
+      display:block;
+      text-align: center;
+    }
+    .product-container img {
+        width: 95%;
+        height:100%;
+    }
+    .navbar-child ul {
+        display: none;
+    }
+
+    .navbar {
+        height:1rem;
+    }
+    .product-details {
+        text-align: left;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .product-details h2 {
+        font-size: 30px;
+    }
+
+    .product-details h4 {
+        font-size: 20px;
+    }
+    
+  }

@@ -3,6 +3,16 @@
     <head>
         <title>My Page</title>
         <link rel="stylesheet" href="styles.css">
+<style>
+    .tab {
+        border-bottom: 3px solid rgba(0,0,0,0.7);
+        padding: 5px;
+    }
+
+    .tab:active {
+        border-bottom: 3px solid rgba(0,0,0,1);
+    }
+</style>
     </head>
     <body>
         <div class="navbar">
@@ -26,11 +36,13 @@
             <div class="product-details">
                 <h2>Maneh Mock Neck Knit</h2>
                 <h4 style="font-weight:bold">$44.99</h4>
-                <h4>DETAILS</h4>
                 <div class="divider"></div>
-                <p>
-                    The <b>Maneh Mock Neck Knit</b> will be the perfect foundation piece for your winter wardrobe. Featuring long sleeves with ribbed cuffs, this relaxed knit will be a staple this season. Wear it layered under coats, or tucked into your favourite pair of denim jeans
-                </p>
+                <details open><summary><h4>DETAILS</h4></summary>
+                    <p>
+                        The <b>Maneh Mock Neck Knit</b> will be the perfect foundation piece for your winter wardrobe. Featuring long sleeves with ribbed cuffs, this relaxed knit will be a staple this season. Wear it layered under coats, or tucked into your favourite pair of denim jeans
+                    </p>
+                </details>
+
                 <button class="checkout-btn">Add To Bag</button>
             </div>
         </div>
