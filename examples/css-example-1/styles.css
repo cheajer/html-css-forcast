@@ -1,0 +1,246 @@
+body #maincontent .column.main {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 220px;
+}
+body #maincontent .column.main .header-title {
+    font-size: 34px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+body #maincontent .column.main .main-image [data-content-type="text"] * {
+    font-weight: 600;
+}
+body #maincontent .column.main .main-wrapper .pagebuilder-column-group{
+    gap: 15px;
+}
+body #maincontent strong{
+    font-weight: 600;
+}
+body #maincontent a strong{
+    font-weight: 500;
+}
+body #maincontent .column.main > [data-content-type="row"] [data-content-type="text"] span {
+    letter-spacing: 0px;
+}
+body p {
+    font-weight: 300;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+body li {
+    font-weight: 300;
+    font-size: 16px;
+}
+body .columns {
+    padding: 0 16px;
+}
+body .breadcrumbs {
+    display: none;
+}
+.accordion {
+    border-bottom: 1px solid #cccccc;
+}
+.accordion .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    border-top: 1px solid #cccccc;
+    padding: 25px 0;
+    cursor: pointer;
+}
+.accordion .title span::after {
+    font-family: 'luma-icons';
+    position: absolute;
+    content: '\e621';
+    right: 0;
+    transform: rotate(180deg);
+    color: #000000b5;
+    transition-duration: 0.8s;
+}
+.accordion .title.active span::after {
+    transform: rotate(0deg);
+}
+.accordion .content {
+    padding: 25px 0;
+    border-top: 1px solid #cccccc;
+}
+.accordion .content span, .accordion-faq .content li {
+    font-size: 16px;
+    color: #000;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: .1px;
+}
+.accordion .content span:last-child {
+    margin: 0;
+}
+.accordion .content b {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+.accordion .content small {
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}
+.accordion .content a {
+    cursor: pointer;
+}
+.accordion .content ul {
+    padding-inline-start: 20px;
+}
+.accordion .content ul li {
+    display: list-item;
+    margin-bottom: 0.5rem;
+}
+.accordion .content ul li::marker {
+    font-size: 15px;
+}
+.accordion .content .no-margin {
+    margin-bottom: 0.5rem;
+}
+.accordion .content table {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #000;
+}
+.accordion .content table thead {
+    background: #000;
+    color: #fff;
+}
+.accordion .content table .head {
+    background: #000;
+    color: #fff;
+    font-weight: 300;
+}
+.accordion .content table th {
+    text-align: center;
+}
+.accordion .content table strong {
+    font-weight: 500 !important;
+}
+.accordion .content table td {
+    vertical-align: middle;
+    padding: 5px;
+    border-bottom: 3px solid #000;
+}
+.accordion .content table tbody [rowspan="2"] {
+    border-bottom: 3px solid #000;
+    vertical-align: middle;
+}
+.accordion .content table td.no-border {
+    border-color: #fff;
+}
+.body #maincontent strong, body #maincontent a:hover {
+    color: #ccc !important;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 767px) {
+    .tab {
+        margin:0;
+   }
+    .promo {
+       margin:0;
+   }
+    .terms{
+       margin:0;
+   }
+    body .pagebuilder-mobile-hidden {
+        display: none;
+   }
+    body .accordion .content table td.no-border{
+        border-color: #999999;
+   }
+    body #maincontent .column.main {
+        margin-bottom: 10px;
+   }
+    body #maincontent .column.main .header-title {
+        font-size: 21px;
+        margin-top: 20px;
+   }
+    body #maincontent .column.main .main-image figure {
+        margin: auto !important;
+   }
+    body #maincontent .column.main .main-image [data-content-type="buttons"] {
+        margin: 25px auto 30px auto !important;
+   }
+    body #maincontent .column.main .main-image [data-content-type="buttons"] span {
+        font-size: 12px;
+   }
+    body #maincontent .column.main .main-image [data-content-type="buttons"] .pagebuilder-button-secondary {
+        padding: 12px 20px;
+   }
+    body #maincontent .column.main .main-image:first-child {
+        margin-top: -80px;
+   }
+    body p {
+        letter-spacing: 0;
+   }
+    body p span {
+        font-size: 12px !important;
+   }
+    body .columns {
+        padding: 0 1px;
+   }
+    .accordion-faq {
+        margin-top: 50px;
+   }
+    .accordion-faq .title {
+        font-size: 15px;
+        padding: 20px 0;
+   }
+    .accordion-faq .title [data-role="trigger"] {
+        padding-right: 15px;
+        line-height: 1;
+        position: relative;
+   }
+    .accordion-faq .title [data-role="trigger"] span {
+        line-height: 1.5;
+   }
+    .accordion-faq .title [data-role="trigger"] span::after {
+        top: 10px;
+        line-height: 1;
+   }
+    .accordion-faq .content {
+        padding: 20px 0;
+   }
+    .accordion-faq .content table {
+        font-size: 12px;
+        position: relative;
+        margin-bottom: 20px;
+   }
+    .accordion-faq .content span, .accordion-faq .content li, .accordion-faq .content b {
+        font-size: 12px;
+        letter-spacing: 0;
+   }
+    .accordion-faq .content small {
+        font-size: 8px;
+   }
+    #html-body #maincontent .column.main .main-wrapper .pagebuilder-column-group .main-image{
+        margin-bottom: 15px;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .accordion {
+        margin-top:0!important;
+   }
+    .pagebuilder-column {
+        flex-basis: 50%;
+        max-width: 50%;
+   }
+    .pagebuilder-column-group {
+        flex-wrap: unset;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body #maincontent .column.main .main-image {
+        margin:0;
+   }
+}
